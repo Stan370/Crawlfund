@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bce8d7f-bc16-48e4-b66f-e85f7fbf2675" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Scrape" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\work\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="archetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="25oEVcx813LPXemSsHfZgyGiUGb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files/Anaconda3" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Scrape" />
+      <recent name="D:\Work\Scrape\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Visualization (1)">
+    <configuration name="CrawlFund" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CrawlFund" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrawlFund.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Visualization (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CrawlFund" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Visualization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CrawlFund" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Work\Scrape\Visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bs4_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CrawlFund" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Work\Scrape\img\bs4_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pa_img" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CrawlFund" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Work\Scrape\img\pa_img.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50684" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Visualization (1)" />
+        <item itemvalue="Python.Visualization" />
+        <item itemvalue="Python.CrawlFund" />
+        <item itemvalue="Python.pa_img" />
+        <item itemvalue="Python.bs4_demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bce8d7f-bc16-48e4-b66f-e85f7fbf2675" name="Default Changelist" comment="" />
+      <created>1646185063800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646185063800</updated>
+      <workItem from="1646185072287" duration="3673000" />
+      <workItem from="1646221754604" duration="1078000" />
+      <workItem from="1646312239948" duration="21000" />
+      <workItem from="1646471605410" duration="593000" />
+      <workItem from="1646534428701" duration="1259000" />
+      <workItem from="1647350608301" duration="1236000" />
+      <workItem from="1647576945253" duration="7000" />
+      <workItem from="1649598632257" duration="22723000" />
+      <workItem from="1649752446747" duration="36314000" />
+      <workItem from="1649863801938" duration="1725000" />
+      <workItem from="1649901564575" duration="833000" />
+      <workItem from="1649902421031" duration="36000" />
+      <workItem from="1650785924643" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="106" key="#Console" timestamp="1646185358275">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="340" y="106" key="#Console/0.0.1493.893@0.0.1493.893" timestamp="1646185358275" />
+    <state x="202" y="103" width="1089" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649761374822">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="202" y="103" width="1089" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1493.893@0.0.1493.893" timestamp="1649761374822" />
+    <state x="418" y="126" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1646185238024">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="418" y="126" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1493.893@0.0.1493.893" timestamp="1646185238024" />
+    <state x="478" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1649859544236">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="478" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1493.893@0.0.1493.893" timestamp="1649859544236" />
+    <state x="548" y="224" key="FileChooserDialogImpl" timestamp="1649761415326">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="548" y="224" key="FileChooserDialogImpl/0.0.1493.893@0.0.1493.893" timestamp="1649761415326" />
+    <state width="1450" height="209" key="GridCell.Tab.0.bottom" timestamp="1649902457091">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="209" key="GridCell.Tab.0.bottom/0.0.1493.893@0.0.1493.893" timestamp="1649902457091" />
+    <state width="1450" height="209" key="GridCell.Tab.0.center" timestamp="1649902457091">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="209" key="GridCell.Tab.0.center/0.0.1493.893@0.0.1493.893" timestamp="1649902457091" />
+    <state width="1450" height="209" key="GridCell.Tab.0.left" timestamp="1649902457091">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="209" key="GridCell.Tab.0.left/0.0.1493.893@0.0.1493.893" timestamp="1649902457091" />
+    <state width="1450" height="209" key="GridCell.Tab.0.right" timestamp="1649902457091">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="209" key="GridCell.Tab.0.right/0.0.1493.893@0.0.1493.893" timestamp="1649902457091" />
+    <state width="1450" height="289" key="GridCell.Tab.1.bottom" timestamp="1649865541658">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.bottom/0.0.1493.893@0.0.1493.893" timestamp="1649865541658" />
+    <state width="1450" height="289" key="GridCell.Tab.1.center" timestamp="1649865541658">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.center/0.0.1493.893@0.0.1493.893" timestamp="1649865541658" />
+    <state width="1450" height="289" key="GridCell.Tab.1.left" timestamp="1649865541658">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.left/0.0.1493.893@0.0.1493.893" timestamp="1649865541658" />
+    <state width="1450" height="289" key="GridCell.Tab.1.right" timestamp="1649865541658">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.right/0.0.1493.893@0.0.1493.893" timestamp="1649865541658" />
+    <state x="249" y="44" key="SettingsEditor" timestamp="1649761458141">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="249" y="44" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1649761458141" />
+    <state x="431" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1650785924460">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="431" y="272" key="com.intellij.ide.util.TipDialog/0.0.1493.893@0.0.1493.893" timestamp="1650785924460" />
+    <state x="410" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1646534496413">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="410" y="189" width="672" height="678" key="search.everywhere.popup/0.0.1493.893@0.0.1493.893" timestamp="1646534496413" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Scrape$bs4.coverage" NAME="bs4_demo Coverage Results" MODIFIED="1646534675649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scrape$pa_img.coverage" NAME="pa_img Coverage Results" MODIFIED="1646536399956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scrape$Visualization__1_.coverage" NAME="Visualization (1) Coverage Results" MODIFIED="1649902427278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scrape$CrawlFund.coverage" NAME="CrawlFund Coverage Results" MODIFIED="1649862869011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scrape$Visualization.coverage" NAME="Visualization Coverage Results" MODIFIED="1649865407527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scrape$re.coverage" NAME="re__ Coverage Results" MODIFIED="1646221935766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
+    <SUITE FILE_PATH="coverage/Scrape$1.coverage" NAME="1 Coverage Results" MODIFIED="1649761462593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scrape$hello.coverage" NAME="hello Coverage Results" MODIFIED="1646188569892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
+  </component>
+</project>
