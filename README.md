@@ -21,19 +21,17 @@
 在这里历史信息不在这个包中，应该在其他的包里，于是点击下一页，重新进行抓包。发现每次点击下一页时，都会发一个这个包
  对这个包进行分析，发现响应是ASP格式（和之前的html不同），并且我们要的历史数据也在这里面。
 
-![图形用户界面, 应用程序  描述已自动生成](file:///C:/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
+![图形用户界面, 应用程序  描述已自动生成](file:///C:/Windows.old/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
 
  
 
-![图形用户界面, 文本  描述已自动生成](file:///C:/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
+![图形用户界面, 文本  描述已自动生成](file:///C:/Windows.old/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
 
  
 
 2.在F12-Network的response中我们发现到带有上述信息的数据包封装在ASP函数中，我们将Request URL中的地址复制下来，开启一个新页面进行访问，发现响应的内容如下，aspx格式，但是很明显，内容并不是我们想要的，猜想应该是页面对这个请求地址做了反扒。![img](file:///C:/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
 
 经过几次尝试，发现这个Request URL中的地址并不能直接访问，需要对请求投做特殊处理，也就是在发起对这个URL的请求时，请求头中要告诉浏览器，它是从那个网址跳转过来的，也就是不能直接访问这个URL，需要重借助另一个网址进行跳转，不然服务器会识别为爬虫行为，然后返回错误的数据。这个中间网址一般为Headers中的Referer,如下图所示。
-
-![文本  描述已自动生成](file:///C:/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png)
 
 所以在之后的代码编写环节要注意对headers的处理。 
 
