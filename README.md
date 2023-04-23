@@ -6,9 +6,9 @@
 
 ### 1.分析网站
 
-1.首先来到[天天基金——基金排行]([http://fund.eastmoney.com/ fundranking.html](http://fund.eastmoney.com/jzzzl.html)) ，分析要爬取的内容![图形用户界面, 应用程序  描述已自动生成](file:///C:/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+1.首先来到[天天基金——基金排行]
 
-通过基金简称中的超链接，我们可以跳转到某个基金的首页，观察到页面的网址由首页地址加上基金代码组成。在详情页我们可以得到基金规模、基金经理、历史单位净值等信息。![图形用户界面, 应用程序  描述已自动生成](file:///C:/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+通过基金简称中的超链接，我们可以跳转到某个基金的首页，观察到页面的网址由首页地址加上基金代码组成。在详情页我们可以得到基金规模、基金经理、历史单位净值等信息。
 
  
 
@@ -16,7 +16,7 @@
 
 ### 2.抓包分析
 
-![图形用户界面, 文本, 应用程序  描述已自动生成](file:///C:/Users/Stan/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![图形用户界面, 文本, 应用程序  描述已自动生成]
 
 在这里历史信息不在这个包中，应该在其他的包里，于是点击下一页，重新进行抓包。发现每次点击下一页时，都会发一个这个包
  对这个包进行分析，发现响应是ASP格式（和之前的html不同），并且我们要的历史数据也在这里面。
