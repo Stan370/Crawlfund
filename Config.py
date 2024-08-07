@@ -22,7 +22,22 @@ USER_AGENT= [
     'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)',
     'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)"',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36']
-
+    
+PARAMS = {
+    'op': 'ph',
+    'dt': 'kf',
+    'ft': 'all',
+    'rs': '',
+    'gs': '0',
+    'sc': '6yzf',
+    'st': 'desc',
+    'sd': '2021-04-11',
+    'ed': '2022-04-11',
+    'qdii': '',
+    'tabSubtype': ',,,,,',
+    'dx': '1',
+    'v': '0.8381695977921375'
+}
 # 600 个已爬取的基金代码
 CODE = ['162719',
            '163208',

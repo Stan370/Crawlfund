@@ -1,0 +1,30 @@
+import asyncio
+import requests
+from bs4 import BeautifulSoup
+from .parser import FundParser
+from .utils import get_random_user_agent
+from config import USER_AGENT, CODE
+
+async def fetch(session, url, headers):
+    async with session.get(url, headers=headers) as response:
+        return await response.text()
+
+async def fetch_single_fund(session, code):
+    url = f'http://fund.eastmoney.com/{code}.html'
+    headers = {
+        "User-Agent": get_random_user_agent(USER_AGENT),
+        'Referer': 'http://fund.eastmoney.com/'
+    }
+    html = await fetch(session, url, headers)
+    return FundParser.parse_fund_info(html, code)
+
+async def async_main():
+    async with aiohttp.ClientSession() as session:
+        tasks = [fetch_single_fund(session, code) for code in CODE[:100]]  # Limit to 100 for this example
+        fund_data = await asyncio.gather(*tasks)
+
+        writer = DataWriter()
+        writer.write_to_csv(fund_data, 'manager.csv')
+
+if __name__ == "__main__":
+    asyncio.run(async_main())

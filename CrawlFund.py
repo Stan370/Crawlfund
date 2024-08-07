@@ -97,33 +97,60 @@ async def manager(num):
         f.write(CODE[num] + ',' + name + ',' + manager)
         f.write('\n')
 
+class FundCrawler:
+    def __init__(self, thread_pool_size):
+        self.thread_pool_size = thread_pool_size
+        self.lock = Lock()
+    
+    def fetch_fund_data(self):
+        headers = {
+            "User-Agent": get_random_user_agent(USER_AGENT),
+            'Referer': 'http://fund.eastmoney.com/data/fundranking.html'
+        }
+        response = requests.get(BASE_URL, headers=headers, params=PARAMS)
+        fund_codes = FundParser.parse_fund_codes(response.content.decode())
+        
+        with ThreadPoolExecutor(self.thread_pool_size) as pool:
+            fund_data = list(pool.map(self.fetch_single_fund, fund_codes))
+        
+        return fund_data
+    
+    def fetch_single_fund(self, code):
+        url = f'http://fund.eastmoney.com/{code}.html'
+        headers = {
+            "User-Agent": get_random_user_agent(USER_AGENT),
+            'Referer': 'http://fund.eastmoney.com/'
+        }
+        response = requests.get(url, headers=headers)
+        fund_info = FundParser.parse_fund_info(response.content.decode(), code)
+        return fund_info
 
-from datetime import datetime
+# from datetime import datetime
 
-if __name__ == '__main__':
-    # 主页基金下载
-    # start = datetime.now()
-    x = GetPage()
-    x.GetByURL()
-    # end = datetime.now()
-    # print((end - start).total_seconds(), "秒")
-    choice = int(input("请选择获取基金详细信息的方式: 1.线程池+同步锁 2.异步协程"))
-    if choice == 1:
-        start = datetime.now()
-        lock = Lock()
-        with ThreadPoolExecutor(THREAD_POOL) as pool:
-            for i in range(1, 100):
-                pool.submit(getSingle, i)
-        end = datetime.now()
-        print((end - start).total_seconds(), "秒 数据已下载到manager.csv")
-    elif choice == 2:
-        start = datetime.now()
-        loop = asyncio.get_event_loop()
-        # 异步操作
-        tasks = [manager(i) for i in range(1, 300)]
-        loop.run_until_complete(asyncio.wait(tasks))
-        loop.close()
-        end = datetime.now()
-        print((end - start).total_seconds(), "秒 数据已下载到manager.csv")
-    else:
-        print("Please input 1 or 2")
+# if __name__ == '__main__':
+#     # 主页基金下载
+#     # start = datetime.now()
+#     x = GetPage()
+#     x.GetByURL()
+#     # end = datetime.now()
+#     # print((end - start).total_seconds(), "秒")
+#     choice = int(input("请选择获取基金详细信息的方式: 1.线程池+同步锁 2.异步协程"))
+#     if choice == 1:
+#         start = datetime.now()
+#         lock = Lock()
+#         with ThreadPoolExecutor(THREAD_POOL) as pool:
+#             for i in range(1, 100):
+#                 pool.submit(getSingle, i)
+#         end = datetime.now()
+#         print((end - start).total_seconds(), "秒 数据已下载到manager.csv")
+#     elif choice == 2:
+#         start = datetime.now()
+#         loop = asyncio.get_event_loop()
+#         # 异步操作
+#         tasks = [manager(i) for i in range(1, 300)]
+#         loop.run_until_complete(asyncio.wait(tasks))
+#         loop.close()
+#         end = datetime.now()
+#         print((end - start).total_seconds(), "秒 数据已下载到manager.csv")
+#     else:
+#         print("Please input 1 or 2")

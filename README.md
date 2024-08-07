@@ -1,3 +1,25 @@
+# Fund Crawler
+
+## Overview
+This project is a web scraper designed to fetch and parse data about funds from the EastMoney website. It uses Python and includes anti-scraping measures such as random User-Agent selection.
+
+## Setup
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/fund_crawler.git
+    cd fund_crawler
+    ```
+
+2. Install dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+Run the main script to start the crawler:
+```sh
+python main.py
+
 # CrawlFund总结报告
 
 本项目可爬取天天基金网上的所有基金，辅助对基金投资的选择，包括基金代码,基金名称,单位净值,累计净值, 日增长率,   近1周,  近1月,  近3月,  近6月,  近1年,  近2年,  近3年,  今年来,  成立来的收益率等信息；实现了单个基金成立以来历史波动数据的爬取和基于echart的数据可视化，方便复盘投资决策；实现了多线程爬取二级网页的经理信息并写入csv
